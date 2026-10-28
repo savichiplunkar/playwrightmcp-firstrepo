@@ -29,7 +29,7 @@ test.describe('OrangeHRM login', () => {
     await expect(page).toHaveURL(/auth\/login/);
   });
 
-  test('Invalid username is rejected', async ({ page }) =>
+  test('Invalid username is rejected', async ({ page }) => {
     await page.getByRole('textbox', { name: 'Username' }).fill('Admin123');
     await page.getByRole('textbox', { name: 'Password' }).fill('admin123');
     await page.getByRole('button', { name: 'Login' }).click();
