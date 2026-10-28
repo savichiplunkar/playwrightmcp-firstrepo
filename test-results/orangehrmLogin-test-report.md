@@ -68,4 +68,4 @@ The demo login workflow behaved as expected in Chromium, Firefox, and WebKit. Al
 
 ## 7. Repository Publication
 
-The local workspace has no Git repository initialized. The plan, automation, and text reports are being published to `savichiplunkar/playwrightmcp-firstrepo` on `main` using GitHub MCP. MCP configuration, local logs, generated browser state, and unrelated files are excluded. Screenshot evidence remains in the local workspace and is not included in the remote text-file commit.
+The local workspace has no Git repository initialized. The plan, automation, and text reports were published to `savichiplunkar/playwrightmcp-firstrepo` on `main` using GitHub MCP. MCP configuration, local logs, generated browser state, and unrelated files were excluded. Screenshot evidence remains in the local workspace and is not included in the remote text-file commit.
